@@ -1,0 +1,112 @@
+<!--// Exercício
+// 1) Montar um formulário conforme o que está sendo mostrado na imagem.
+// 2) Ao final da página adicione uma tabela informando as formações oferecidas pela soulcode com custo, prazo, início, duração, horário de aula, Formato de aula, Idioma.
+
+// Para o logo usem https://soulcodeacademy.org/assets/images/logo/light-logo.png-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario SoulCode</title>
+</head>
+<body>
+    <header>
+        <img src="https://soulcodeacademy.org/assets/images/logo/light-logo.png" />
+        <h1>Bem-vindo! Entre com seu email e senha</h1>
+    </header>
+    <form>
+        <div>
+            <label for="campoEmail">Email</label><br />
+            <input id="campoEmail" name="campoEmail" type="text" placeholder="usuario@teste.com" required />
+        </div>
+        <div>
+            <label for="campoSenha">Senha</label><br />
+            <input id="campoSenha" name="campoSenha" type="password" required />
+        </div>
+        <button type="submit">Enviar</button>
+        <div>
+            <input id="checkTermos" type="checkbox" name="concordaTermos" required />
+            <label for="checkTermos">Concordar com os termos de serviço</label>
+        </div>
+        <hr/>
+    </form>
+    <table border="1" cellpadding="3" style="border-collapse: collapse">
+        <thead>
+            <tr>
+                <th colspan="2">DESENVOLVEDOR JAVA FULL STACK</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Custo</td>
+                <td>BOLSA INTEGRAL</td>
+            </tr>
+            <tr>
+                <td>Prazo de Inscrição</td>
+                <td>até 16/01/23</td>
+            </tr>
+            <tr>
+                <td>Inicio do curso</td>
+                <td>30/01/23</td>
+            </tr>
+            <tr>
+                <td>Duração</td>
+                <td>16 semanas</td>
+            </tr>
+            <tr>
+                <td>Horario de Aula</td>
+                <td>8h às 18h</td>
+            </tr>
+            <tr>
+                <td>Formato de Aula</td>
+                <td>Online e ao vivo</td>
+            </tr>
+            <tr>
+                <td>idioma</td>
+                <td>Português</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr/>
+    <table border="1" cellpadding="3" style="border-collapse: collapse">
+        <thead>
+            <tr>
+                <th colspan="2">DESENVOLVEDOR SALESFORCE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Custo</td>
+                <td>BOLSA INTEGRAL</td>
+            </tr>
+            <tr>
+                <td>Prazo de Inscrição</td>
+                <td>até 03/10/22</td>
+            </tr>
+            <tr>
+                <td>Inicio do curso</td>
+                <td>17/10/22</td>
+            </tr>
+            <tr>
+                <td>Duração</td>
+                <td>12 semanas</td>
+            </tr>
+            <tr>
+                <td>Horario de Aula</td>
+                <td>8h às 18h</td>
+            </tr>
+            <tr>
+                <td>Formato de Aula</td>
+                <td>Online e ao vivo</td>
+            </tr>
+            <tr>
+                <td>idioma</td>
+                <td>Português</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
