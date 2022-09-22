@@ -1,0 +1,28 @@
+h1 {
+    background-color: green;
+    color: white;
+}
+table{
+    color: whitesmoke;
+    
+}
+
+th {
+    color: black;
+}
+
+tr{
+    color: black;
+}
+
+.libertadores {
+    color: green;
+}
+
+.copaSulAmericana {
+    color: orange;
+}
+
+.rebaixamento {
+    color: red;
+}
