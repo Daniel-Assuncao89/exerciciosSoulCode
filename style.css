@@ -1,9 +1,16 @@
 h1 {
     background-color: green;
     color: white;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 2%;
 }
 table{
-    color: whitesmoke;
+    border: 2px ridge;
+    border-radius: 10px;
+    border-bottom-width: 20px;
+    padding: 10px;
+    margin-left: 200px;
     
 }
 
@@ -13,6 +20,10 @@ th {
 
 tr{
     color: black;
+}
+
+div {
+    padding-left: 400px;
 }
 
 .libertadores {
@@ -25,4 +36,9 @@ tr{
 
 .rebaixamento {
     color: red;
+}
+
+* {
+    padding: 0;
+    margin: 0;
 }
