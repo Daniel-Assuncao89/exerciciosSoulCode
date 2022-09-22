@@ -6,25 +6,34 @@ h1 {
     padding: 2%;
 }
 table{
+    text-align: center;
     border: 2px ridge;
+    /*border-collapse: collapse; *//*Com o collapse o radius não tem efeito*/
     border-radius: 10px;
     border-bottom-width: 20px;
-    padding: 10px;
-    margin-left: 200px;
+    margin: auto;
     
 }
 
 th {
     color: black;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.575);
 }
 
 tr{
     color: black;
 }
 
-div {
-    padding-left: 400px;
+td {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.575);
+    padding: 5px;
 }
+
+div {
+    list-style-position: inside; /* bullets pra dentro do item da lista */
+    text-align: center;
+}
+
 
 .libertadores {
     color: green;
@@ -36,6 +45,11 @@ div {
 
 .rebaixamento {
     color: red;
+}
+
+.imagem {
+    width: 25%;
+    
 }
 
 * {
