@@ -1,0 +1,36 @@
+body {
+    background-color: #28d5f43a;
+}
+.my-section {
+    box-sizing: border-box;
+    width: 500px;
+    height: 1000px;
+    background-color: #F5A17D;
+    border-radius: 20px;
+}
+
+.my-section div{
+    box-sizing: border-box;
+    width: 500px;
+    height: 350px;
+    background-color: #28D4F4;
+    border: 2px solid #ddd;
+    border-radius: 40px;
+    margin: 50px;
+}
+
+.my-section p{
+    box-sizing: border-box;
+    margin: auto;
+    text-align: left;
+}
+
+.my-section img{
+    box-sizing: border-box;
+    border: 1px groove #ddd;
+    border-radius: 15%;
+    padding: 5px;
+    width: 60%;
+    position: static;
+    margin: auto;
+}
