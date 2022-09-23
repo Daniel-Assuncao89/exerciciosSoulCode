@@ -30,8 +30,18 @@ td {
 }
 
 div {
-    list-style-position: inside; /* bullets pra dentro do item da lista */
     text-align: center;
+}
+
+ul li {
+    display: inline;
+    padding: 5px;
+    font-size: 15px;
+}
+
+ul li::before{
+    content: "⬤";
+    padding-right: 5px;
 }
 
 
@@ -48,11 +58,14 @@ div {
 }
 
 .imagem {
-    width: 25%;
+    width: 30%;
     
 }
-
-* {
+*{
+    margin: 0;
+    padding: 0;
+}
+/*.tabela{
     padding: 0;
     margin: 0;
-}
+}*/
