@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     background-color: green;
     color: white;
@@ -5,7 +10,8 @@ h1 {
     text-align: center;
     padding: 2%;
 }
-table{
+
+.my-table {
     text-align: center;
     border: 2px ridge;
     /*border-collapse: collapse; *//*Com o collapse o radius não tem efeito*/
@@ -15,18 +21,21 @@ table{
     
 }
 
-th {
+.margem {
+    padding: 0;
+    margin: 0;
+}
+
+.my-table th {
     color: black;
     border-bottom: 1px solid rgba(128, 128, 128, 0.575);
 }
 
-tr{
-    color: black;
-}
 
-td {
+.my-table td {
     border-bottom: 1px solid rgba(128, 128, 128, 0.575);
     padding: 5px;
+    
 }
 
 div {
@@ -59,13 +68,7 @@ ul li::before{
 
 .imagem {
     width: 30%;
+    padding: 0;
+    margin: 0;
     
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-/*.tabela{
-    padding: 0;
-    margin: 0;
-}*/
