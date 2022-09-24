@@ -1,36 +1,53 @@
 body {
     background-color: #28d5f43a;
-}
-.my-section {
-    box-sizing: border-box;
-    width: 500px;
-    height: 1000px;
-    background-color: #F5A17D;
-    border-radius: 20px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/05/08/21/geometry-1023846_960_720.jpg);
+    background-size: cover;
+    background-repeat: repeat;
 }
 
-.my-section div{
+section {
+    display: flex;
+    flex: 200px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     box-sizing: border-box;
-    width: 500px;
-    height: 350px;
-    background-color: #28D4F4;
+    padding-top: 150px;
+}
+
+
+section div{
+    width: auto;
+    height: auto;
+    background-color: #6284a8d5;
     border: 2px solid #ddd;
     border-radius: 40px;
-    margin: 50px;
+    margin: 20px;
 }
-
-.my-section p{
+section p{
     box-sizing: border-box;
     margin: auto;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 20px;
     text-align: left;
+    color: rgb(0, 0, 0);
 }
 
-.my-section img{
+section img{
     box-sizing: border-box;
     border: 1px groove #ddd;
-    border-radius: 15%;
-    padding: 5px;
-    width: 60%;
+    border-radius: 13%;
+    width: 100%;
     position: static;
     margin: auto;
+    padding: 0;
+}
+
+.hastag {
+    color: rgb(127, 255, 212);
+}
+.hastag:hover{
+    color: rgba(127, 255, 212, 0.603);
+    cursor: pointer;
 }
